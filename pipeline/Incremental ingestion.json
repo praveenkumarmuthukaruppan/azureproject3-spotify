@@ -1,5 +1,5 @@
 {
-	"name": "Incremental pipeline",
+	"name": "Incremental ingestion",
 	"properties": {
 		"activities": [
 			{
