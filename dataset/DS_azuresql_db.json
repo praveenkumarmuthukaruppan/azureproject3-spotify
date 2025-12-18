@@ -1,0 +1,23 @@
+{
+	"name": "DS_azuresql_db",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Azure_sql_db",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"schema": {
+				"type": "string"
+			},
+			"table": {
+				"type": "string"
+			},
+			"cdc_column": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	}
+}
